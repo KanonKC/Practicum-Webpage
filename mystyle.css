@@ -2,8 +2,9 @@ h1 { text-align:center;}
 h2 { text-align:center;}
 
 table, th, td {
-  border: 1px solid green;
+  border: 2px solid red;
   border-collapse: collapse;
+  background-color: rgb(255, 197, 197);
 }
 th,td {
   padding: 10px;
