@@ -1,10 +1,15 @@
+body{
+    font-family: 'Itim', cursive;
+    background-color: #d6ffd4;
+}
+
 h1 { text-align:center;}
 h2 { text-align:center;}
 
 table, th, td {
-  border: 2px solid red;
+  border: 2px solid rgb(0, 89, 255);
   border-collapse: collapse;
-  background-color: rgb(255, 197, 197);
+  background-color: rgb(208, 224, 255);
 }
 th,td {
   padding: 10px;
@@ -17,7 +22,7 @@ table {
 
 .buttonC {
   padding: 2px;
-  margin 2px 2px;
+  margin: 2px 2px;
   color: yellow;
   background-color: SlateBlue;
 }
