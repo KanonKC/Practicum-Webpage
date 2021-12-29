@@ -7,13 +7,13 @@ h1 { text-align:center;}
 h2 { text-align:center;}
 
 table, th, td {
-  border: 2px solid rgb(0, 89, 255);
+  border: 2px solid rgb(255, 174, 0);
   border-collapse: collapse;
   background-color: white;
 }
 
 th{
-  background-color: rgb(208, 224, 255);
+  background-color: rgb(255, 235, 191);
 }
 
 th,td {
@@ -23,6 +23,10 @@ table {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.space{
+  background-image: url(https://img.purch.com/rc/1920x1200/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0My8zMjgvb3JpZ2luYWwvYXJvdW5kLWEtc3Rhci1zeXN0ZW0tMTkyMC5qcGc=);
 }
 
 .active-btn{

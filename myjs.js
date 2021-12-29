@@ -16,6 +16,7 @@ var random_word = ["Thamks Soundclound for Music!","Among Us","sU tuobA","Magic 
 var magic_input = document.getElementById("magic-input")
 var magic_btn = document.getElementById("magic-btn")
 var bg_btn = document.getElementById("bg")
+var start_music = true
 
 
 
@@ -30,7 +31,19 @@ about_us.addEventListener('mouseleave',(test)=>{
 magic_btn.addEventListener('click',()=>{
     // document.body.classList.toggle('active-btn')
     if(magic_input.value == "Magic String"){
+        document.body.classList.add("space")
         document.body.append(createMusic(AmongUsDrip))
     }
     magic_input.value = ""
 })
+
+// document.body.addEventListener('mouseover',()=>{
+//     console.log(start_music)
+//     if(start_music){
+//         start_music = false
+//         setInterval(function(){
+//             console.log("HEH")
+//             document.body.append(createMusic(AmongUsDrip))
+//         },3000)
+//     }
+// })
