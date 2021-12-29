@@ -7,9 +7,7 @@ var magic_btn = document.getElementById("magic-btn")
 var bg_btn = document.getElementById("bg")
 
 about_us.addEventListener('mouseover',(test)=>{
-    // test.play()
     about_us.textContent = random_word[Math.floor((Math.random()*random_word.length))]
-    // audio.play()
 })
 
 about_us.addEventListener('mouseleave',(test)=>{
