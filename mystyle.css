@@ -18,6 +18,11 @@ table, th, td {
   background-color: white;
 }
 
+#magic-btn{
+  padding: 10px;
+  background-color: yellow;
+}
+
 th{
   background-color: rgb(255, 235, 191);
 }
