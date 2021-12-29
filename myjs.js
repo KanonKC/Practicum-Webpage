@@ -30,7 +30,9 @@ about_us.addEventListener('mouseleave',(test)=>{
 
 magic_btn.addEventListener('click',()=>{
     // document.body.classList.toggle('active-btn')
-    if(magic_input.value == "Magic String"){
+    if(magic_input.value == "Magic String" || 
+       magic_input.value == "std01204111"  ||
+       magic_input.value == "std01204223" ){
         document.body.classList.add("space")
         document.body.append(createMusic(AmongUsDrip))
     }
