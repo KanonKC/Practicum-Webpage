@@ -13,9 +13,9 @@ h3 {
 }
 
 table, th, td {
-  border: 2px solid rgb(255, 174, 0);
+  border: 2px solid #9097a4;
   border-collapse: collapse;
-  background-color: white;
+  background-color: #bcd3f0;
 }
 
 #magic-btn{
@@ -24,7 +24,7 @@ table, th, td {
 }
 
 th{
-  background-color: rgb(255, 235, 191);
+  background-color: #abc8e7;
 }
 
 th,td {
