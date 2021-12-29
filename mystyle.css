@@ -3,8 +3,14 @@ body{
     background-color: #d6ffd4;
 }
 
-h1 { text-align:center;}
-h2 { text-align:center;}
+h2 {
+  text-align:center;
+  color: white;
+}
+h3 {
+  text-align:center;
+  color: white;
+}
 
 table, th, td {
   border: 2px solid rgb(255, 174, 0);
@@ -25,8 +31,12 @@ table {
   margin-right: 15%;
 }
 
+.default-background{
+  background-image: url(https://img.purch.com/rc/1920x1200/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0MC82OTgvb3JpZ2luYWwvZGVlcC1zcGFjZS1sYS1zaWxsYS0xOTIwLmpwZw==);
+}
+
 .space{
-  background-image: url(https://img.purch.com/rc/1920x1200/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0My8zMjgvb3JpZ2luYWwvYXJvdW5kLWEtc3Rhci1zeXN0ZW0tMTkyMC5qcGc=);
+  background-image: url(http://amongsus.org/wp-content/uploads/2021/03/4707825.jpg);
 }
 
 .active-btn{

@@ -12,7 +12,7 @@ const AmongUsDrip = "https://w.soundcloud.com/player/?url=https%3A//api.soundclo
 var about_us = document.getElementById("about-us")
 var audio = document.getElementById("audio")
 var test = new Audio("https://cdn.discordapp.com/attachments/784488193852571668/925417644407017472/imposter_is_sus.mp3")
-var random_word = ["Thamks Soundclound for Music!","Among Us","sU tuobA","Magic String","https://www.facebook.com/groups/514323486104989/"]
+var random_word = ["Twitch.tv/KanonKC","Among Us","sU tuobA","Magic String","https://www.facebook.com/groups/514323486104989/"]
 var magic_input = document.getElementById("magic-input")
 var magic_btn = document.getElementById("magic-btn")
 var bg_btn = document.getElementById("bg")
@@ -29,14 +29,9 @@ about_us.addEventListener('mouseleave',(test)=>{
 })
 
 magic_btn.addEventListener('click',()=>{
-    // document.body.classList.toggle('active-btn')
-    if(magic_input.value == "Magic String" || 
-       magic_input.value == "std01204111"  ||
-       magic_input.value == "std01204223" ){
-        document.body.classList.add("space")
+        document.body.classList.toggle("default-background")
+        document.body.classList.toggle("space")
         document.body.append(createMusic(AmongUsDrip))
-    }
-    magic_input.value = ""
 })
 
 // document.body.addEventListener('mouseover',()=>{
