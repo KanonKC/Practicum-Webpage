@@ -12,6 +12,11 @@ h3 {
   color: white;
 }
 
+p {
+  text-align:center;
+  color: white;
+}
+
 table, th, td {
   border: 5px solid #9097a4;
   border-collapse: collapse;
