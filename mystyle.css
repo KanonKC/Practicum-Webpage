@@ -21,6 +21,12 @@ p {
   color: white;
 }
 
+.profile-img{
+  border: 10px outset rgb(80, 0, 100);
+  padding: 5px;
+  margin: 15px 50px;
+}
+
 table, th, td {
   border: 5px solid #9097a4;
   border-collapse: collapse;
@@ -86,10 +92,18 @@ table {
 }
 
 .buttonC {
-  padding: 2px;
-  margin: 2px 2px;
-  color: yellow;
-  background-color: SlateBlue;
+  /* padding: 2px;
+  margin: 2px 2px; */
+  color: white;
+  /* background-color: SlateBlue; */
+}
+
+#fav-link{
+  margin: 10px 0;
+}
+
+.btn-twitch{
+  background-color: rgb(162, 0, 255);
 }
 
 .buttonD {
