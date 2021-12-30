@@ -50,6 +50,10 @@ table, th, td {
   /* background-color: yellow; */
 }
 
+.loading-bar{
+  visibility: hidden;
+}
+
 #about-us{
   font-size: 36px;
   color:rgb(0, 132, 255)

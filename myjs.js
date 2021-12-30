@@ -8,7 +8,7 @@ var magic_input = document.getElementById("magic-input")
 var magic_btn = document.getElementById("magic-btn")
 var card = document.getElementById("card")
 var bg_btn = document.getElementById("bg")
-var start_music = true
+var loading = document.getElementById("loading")
 
 
 
@@ -24,6 +24,7 @@ magic_btn.addEventListener('click',()=>{
         document.body.classList.toggle("default-background")
         document.body.classList.toggle("space")
         card.classList.toggle("card-visible")
+        loading.classList.toggle("loading-bar")
         document.body.append(createMusic(AmongUsDrip))
 })
 
