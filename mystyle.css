@@ -40,6 +40,10 @@ table, th, td {
   background-color: rgb(223, 227, 255);
 }
 
+.card-invisible{
+  background-color: rgba(223, 227, 255, 0.185);
+}
+
 #card{
   border-radius: 15px;
   margin-left: 100px;

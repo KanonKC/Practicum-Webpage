@@ -33,6 +33,7 @@ magic_btn.addEventListener('click',()=>{
         document.body.classList.toggle("default-background")
         document.body.classList.toggle("space")
         card.classList.toggle("card-visible")
+        card.classList.toggle("card-invisible")
         loading.classList.toggle("loading-bar")
         document.body.append(createMusic(AmongUsDrip))
 })
