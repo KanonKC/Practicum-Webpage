@@ -15,6 +15,7 @@ var test = new Audio("https://cdn.discordapp.com/attachments/784488193852571668/
 var random_word = ["Twitch.tv/KanonKC","Among Us","sU tuobA","Magic String","https://www.facebook.com/groups/514323486104989/"]
 var magic_input = document.getElementById("magic-input")
 var magic_btn = document.getElementById("magic-btn")
+var card = document.getElementById("card")
 var bg_btn = document.getElementById("bg")
 var start_music = true
 
@@ -31,6 +32,7 @@ about_us.addEventListener('mouseleave',(test)=>{
 magic_btn.addEventListener('click',()=>{
         document.body.classList.toggle("default-background")
         document.body.classList.toggle("space")
+        card.classList.toggle("card-visible")
         document.body.append(createMusic(AmongUsDrip))
 })
 

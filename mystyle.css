@@ -1,16 +1,18 @@
 body{
     font-family: 'Itim', cursive;
-    background-color: #d6ffd4;
+    background-color: #000000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 }
 
 h2 {
   text-align:center;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 35px;
 }
 h3 {
   text-align:center;
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 25px;
 }
 
@@ -28,11 +30,15 @@ table, th, td {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.card-visible{
+  background-color: rgb(223, 227, 255);
+}
+
 #card{
   border-radius: 15px;
-  background-color: rgb(223, 227, 255);
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 50px;
 }
@@ -40,7 +46,13 @@ table, th, td {
 #magic-btn{
   padding: 10px;
   margin: 5px;
+  font-size: 24px;
   /* background-color: yellow; */
+}
+
+#about-us{
+  font-size: 36px;
+  color:rgb(0, 132, 255)
 }
 
 th{
