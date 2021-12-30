@@ -1,12 +1,3 @@
-function createMusic(url){
-    var music = document.createElement("iframe")
-    music.src = url
-    music.width = "0"
-    music.height = "0"
-    music.allow = "autoplay"
-    return music
-}
-
 const AmongUsDrip = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/917109698&color=%23ff5500&auto_play=true&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"
 
 var about_us = document.getElementById("about-us")
